@@ -22,6 +22,8 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - npm install -S serve
+      - ls -a	
 # Include only the files required for your applicat ion to run.
 artifacts:
   files:
