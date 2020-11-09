@@ -5,17 +5,18 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start",
-    "web": "react-scripts start",
-    "dev": "npm run start && npm run web",
-    "newdev":"concurrently --kill-others \"npm run start\" \"npm run web\"",
+    "startserver": "react-native start",
+    "startweb": "react-scripts start",
+    "dev": "concurrently --kill-others \"npm run startserver\" \"npm run startweb\"",
+    "build":"react-scripts build",
+    "serveweb":"serve -s build",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "concurrently": "^5.3.0",
     "react": "16.13.1",
-    "react-dom": "^17.0.1", 
+    "react-dom": "^17.0.1",
     "react-native": "0.63.3",
     "react-native-web": "^0.14.7",
     "react-scripts": "^4.0.0"
@@ -44,5 +45,3 @@
     ]
   }
 }
-
-
