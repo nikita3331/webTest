@@ -12,7 +12,7 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - npm install react-native-cli
-      - npm install -g serve
+      - npm install -S serve
   build:
     commands:
       - echo Build started on `date`
