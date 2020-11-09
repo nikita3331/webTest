@@ -8,8 +8,8 @@
     "startserver": "react-native start",
     "startweb": "react-scripts start",
     "dev": "concurrently --kill-others \"npm run startserver\" \"npm run startweb\"",
-    "build":"react-scripts build",
-    "serveweb":"serve -s build",
+    "build": "react-scripts build",
+    "serveweb": "serve -s build",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -19,7 +19,8 @@
     "react-dom": "^17.0.1",
     "react-native": "0.63.3",
     "react-native-web": "^0.14.7",
-    "react-scripts": "^4.0.0"
+    "react-scripts": "^4.0.0",
+    "serve": "^11.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
