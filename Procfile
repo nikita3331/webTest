@@ -1,1 +1,1 @@
-web: npm run newdev
+web: npm run start
